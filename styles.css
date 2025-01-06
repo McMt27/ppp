@@ -1,0 +1,168 @@
+/* Style de base */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #00172d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* En-tête */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 2px solid rgb(0, 255, 255);
+}
+
+.titre {
+  text-decoration: none;
+  color: #affffc;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+}
+
+/* Tableaux */
+table {
+  width: 90%;
+  margin: 20px;
+  margin-left: 70px;
+  border-collapse: collapse;
+  overflow: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  table-layout: fixed;
+}
+
+thead {
+  background-color: #34495e;
+  color: white;
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+td {
+  word-wrap: break-word;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #ecf0f1;
+}
+
+/* Différentiation des colonnes */
+.skills-table td:nth-child(1) {
+  background-color: #e8f4fa;
+}
+
+.skills-table td:nth-child(2) {
+  background-color: #fef8e7;
+}
+
+.skills-table td:nth-child(3) {
+  background-color: #fde7e7;
+}
+
+.skills-table td:nth-child(4) {
+  background-color: #e7f9e7;
+}
+
+.experience-table td:nth-child(1) {
+  background-color: #e8f4fa;
+}
+
+.experience-table td:nth-child(2) {
+  background-color: #fef8e7;
+}
+
+.experience-table td:nth-child(3) {
+  background-color: #fde7e7;
+}
+
+.experience-table td:nth-child(4) {
+  background-color: #e7f9e7;
+}
+
+/* Fiche de poste */
+.fiche-poste {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.fiche-poste h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.fiche-poste table {
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fiche-poste thead {
+  background-color: #34495e;
+}
+
+.fiche-poste th {
+  color: #ffffff;
+}
+
+.fiche-poste td{
+color: #000000;
+}
+
+.fiche-poste .orange {
+  background-color: #fff3cd;
+  color: #b38600;
+}
+
+.fiche-poste .vert {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.fiche-poste .rouge {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Pied de page */
+footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: #affffc;
+  background-color: #00172d;
+  margin-top: auto;
+}
+
+img{
+  max-width: 400px;
+  max-height: 450px;
+}
+
+.button-container {
+  text-align: center;
+}
