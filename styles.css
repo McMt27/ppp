@@ -166,3 +166,12 @@ img{
 .button-container {
   text-align: center;
 }
+
+
+.last-image {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* Tu peux ajuster la largeur selon tes préférences */
+  max-width: 800px; /* La taille maximale */
+  height: auto;
+}
